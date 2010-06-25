@@ -2,7 +2,7 @@
 
 function sanitise($input)
 {
-	return $input;
+	return htmlentities($input);
 }
 
 $latitude = sanitise($_GET['latitude']);
