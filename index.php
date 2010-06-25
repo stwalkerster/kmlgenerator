@@ -7,6 +7,7 @@
 <p>Use the form below to generate a KML file.</p>
 <div>
 <form action="generate.php" method="get">
+<label>Placemark name<input type="text" name="name" /></label>
 <label>Latitude<input type="text" name="latitude" /></label>
 <label>Longitude<input type="text" name="longitude" /></label>
 <input type="submit" />
